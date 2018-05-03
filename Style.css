@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-
+@import url('https://fonts.googleapis.com/css?family=Abel');
 
 * {
 	margin: 0;
@@ -15,7 +14,7 @@ body {
 }
 
 header {
-	background-color: #674172;
+	background-color: #db9c01;
 	top: 0;
 	width: 100%;
 	height: 50px;
@@ -56,10 +55,10 @@ header ul li a { /* for links we need additional styling */
 	padding: 100px 0;
 	background-size: cover;
 	background-color: #fff;
-	background-image: url("https://i.imgur.com/eBCaAtL.jpg");
+	background-image: url("https://abbyrose915.github.io/IMG_9653.JPG");
 }
 .about h1 {
-	font-family: 'Lobster', cursive;
+	font-family: 'Abel', sans-serif;
 	letter-spacing: 3px;
 	text-align: center;
 	font-size: 40pt;
@@ -67,10 +66,36 @@ header ul li a { /* for links we need additional styling */
 	color:#fff;
 }
 
+.portfolio {
+	padding: 100px 0;
+	background-size: cover;
+	background-color: #fff;
+	background-image: url("https://abbyrose915.github.io/IMG_9653.JPG");
+}
+.portfolio h1 {
+	font-family: 'Abel', sans-serif;
+	letter-spacing: 3px;
+	text-align: center;
+	font-size: 40pt;
+	margin-bottom: 50px;
+	color:#fff;
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
+
 #circle {
 	width: 200px;
 	height: 200px;
-	background-image: url("https://image.flaticon.com/icons/svg/149/149071.svg");
+	background-image: url("https://abbyrose915.github.io/AbbyProfile_200x200.jpg");
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 250px;
@@ -78,10 +103,24 @@ header ul li a { /* for links we need additional styling */
 }
 
 .about p {
-	text-align: center;
+	text-align: left;
 	font-size: 20px;
 	margin:0 auto;
 	margin-top: 70px;
+	max-width: 50%;
+	background-color: #000;
+	opacity: 0.7;
+	color:#fff;
+	padding:15px;
+
+}
+
+.portfolio p {
+	text-align: left;
+	font-size: 20px;
+	margin:0 auto;
+	margin-top: 40px;
+	margin-bottom: 70px;
 	max-width: 50%;
 	background-color: #000;
 	opacity: 0.7;
@@ -98,7 +137,7 @@ header ul li a { /* for links we need additional styling */
 }
 
 .usefullinks h1 {
-	font-family: 'Lobster', cursive;
+	font-family: 'Abel',sans-serif;
 	letter-spacing: 3px;
 	text-align: center;
 	font-size: 40pt;
@@ -139,13 +178,9 @@ footer {
 }
 
 footer .social img {
-	margin-left: 50px;
+	display: inline;
 	width:64px;
 	height:64px;
-}
-
-#firstsocial {
-	margin-left:-50px;
 }
 
 footer p{
